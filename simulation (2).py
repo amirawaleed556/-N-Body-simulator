@@ -23,9 +23,9 @@ file_handle = open(file_name , "w")
 #print (objects)
 #objects.append (object0)
 
-#quit()  # we do not need to make run for the next lines
+quit()  # we do not need to make run for the next lines
 # simulation iteration
-"""
+
 time =0
 time_step= 1/60
 simulation_time = 10
@@ -48,4 +48,4 @@ while time <= simulation_time :
    
     for object in physics.dict0 :
         print (object)
-    """
+   
